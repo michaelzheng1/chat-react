@@ -1,5 +1,9 @@
 # chat-react
 A chat app created with React and Chatkit. 
+
+https://github.com/pusher/build-a-slack-clone-with-react-and-pusher-chatkit/raw/master/media/final-app.gif
+
+
 It consists of:
   - group chat;
   - a “Who’s online” list; and,
