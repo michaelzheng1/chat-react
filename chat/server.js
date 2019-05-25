@@ -34,7 +34,7 @@ app.post('/authenticate', (req, res) => {
     const authData = chatkit.authenticate({userId: req.query.user_id})
     res.status(authData.status).send(authData.body)
 })
-const PORT = 3001
+const PORT = 3000
 app.listen(PORT, err => {
     if (err) {
         console.error(err)
